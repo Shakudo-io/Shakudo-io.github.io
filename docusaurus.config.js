@@ -111,4 +111,10 @@ const config = {
     }),
 };
 
-module.exports = config;
+module.exports = {
+  url: 'https://shakudo-io.github.io',
+  baseUrl: '/',
+  projectName: 'shakudo-io.github.io',
+  organizationName: 'Shakudo',
+  trailingSlash: false,
+};
