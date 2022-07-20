@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7355],{3791:function(e){e.exports=JSON.parse('{"label":"get started","permalink":"/tags/get-started","allTagsPath":"/tags","count":1,"items":[{"id":"intro","title":"Welcome to Shakudo","description":"Get started","permalink":"/"}]}')}}]);

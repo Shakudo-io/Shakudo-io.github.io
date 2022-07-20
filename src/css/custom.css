@@ -1,0 +1,82 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+
+:root {
+  --ifm-color-primary: #bc561b;
+  --ifm-color-primary-dark: #A94D18;
+  --ifm-color-primary-darker: #A04917;
+  --ifm-color-primary-darkest: #843C13;
+  --ifm-color-primary-light: #BF5E26;
+  --ifm-color-primary-lighter: #C36732;
+  --ifm-color-primary-lightest: #C66F3D;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #B96230;
+  --ifm-color-primary-dark: #B05D2D;
+  --ifm-color-primary-darker: #A6582B;
+  --ifm-color-primary-darkest: #924D26;
+  --ifm-color-primary-light: #C66F3C;
+  --ifm-color-primary-lighter: #C97647;
+  --ifm-color-primary-lightest: #CC7E51;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+.label {
+  display: inline-block;
+  position: relative;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #fff;
+  padding: 2px 12px;
+  border-radius: 0 2px 2px 0;
+ /* Label sharp end */
+ /* Label skeuomorphic hole */
+ /* Basic label */
+}
+.label:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -12px;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 12px 12px 12px 0;
+}
+.label:after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 4px;
+  height: 4px;
+  border-radius: 2px;
+  background: #fff;
+}
+.label.basic {
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 2px;
+}
+.label.basic:before, .label.basic:after {
+  display: none;
+}
+.label.required {
+  margin-left: 0;
+  margin-right: 16px;
+  color: #fa5035;
+  border-color: #fa5035;
+}
+html[data-theme="dark"] .label {
+  color: var(--text);
+}
+html[data-theme="dark"] .label.required {
+  color: #fa5035;
+}
