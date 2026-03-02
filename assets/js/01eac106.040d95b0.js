@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[5875],{3084:function(e){e.exports=JSON.parse('{"label":"opencode","permalink":"/tags/opencode","allTagsPath":"/tags","count":1,"items":[{"id":"kaji/kaji-intro","title":"What is Kaji","description":"Kaji is Shakudo\'s AI-powered development environment","permalink":"/kaji/kaji-intro"}]}')}}]);
